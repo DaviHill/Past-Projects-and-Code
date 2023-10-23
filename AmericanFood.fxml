@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker.AmericanFoodController">
+   <children>
+      <Label alignment="CENTER" prefHeight="46.0" prefWidth="600.0" text="Title" textAlignment="CENTER" />
+      <HBox prefHeight="962.0" prefWidth="638.0">
+         <children>
+            <GridPane prefHeight="530.0" prefWidth="434.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ScrollPane hbarPolicy="NEVER" prefHeight="569.0" prefWidth="418.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="758.0" prefWidth="418.0">
+                           <children>
+                              <Text layoutX="9.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appetizers" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="66.0" mnemonicParsing="false" onAction="#Appetizers1Pressed" prefHeight="62.0" prefWidth="90.0" text="Tomato Soup - $5.99" textOverrun="CLIP" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="66.0" mnemonicParsing="false" onAction="#Appetizers2Pressed" prefHeight="62.0" prefWidth="90.0" text="Potato Skins - 5.99" textOverrun="CLIP" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="66.0" mnemonicParsing="false" onAction="#Appetizers3Pressed" prefHeight="62.0" prefWidth="90.0" text="Pretzel Bites - 5.99" textOverrun="CLIP" wrapText="true" />
+                              <Button layoutX="306.0" layoutY="66.0" mnemonicParsing="false" onAction="#Appetizers4Pressed" prefHeight="62.0" prefWidth="90.0" text="Wings - 5.99" textOverrun="CLIP" wrapText="true" />
+                              <Text layoutX="9.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entres" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="186.0" mnemonicParsing="false" onAction="#Entres1Pressed" prefHeight="62.0" prefWidth="90.0" text="Burger - 15.99" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="186.0" mnemonicParsing="false" onAction="#Entres2Pressed" prefHeight="62.0" prefWidth="90.0" text="Fired Chicken - 15.99" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="186.0" mnemonicParsing="false" onAction="#Entres3Pressed" prefHeight="62.0" prefWidth="90.0" text="BBQ Ribs - 15.99" wrapText="true" />
+                              <Button layoutX="306.0" layoutY="186.0" mnemonicParsing="false" onAction="#Entres4Pressed" prefHeight="62.0" prefWidth="90.0" text="Surf &amp; Turf - 15.99" wrapText="true" />
+                              <Text layoutX="9.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sides" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="306.0" mnemonicParsing="false" onAction="#Sides1Pressed" prefHeight="62.0" prefWidth="90.0" text="French Fries - 5.99" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="306.0" mnemonicParsing="false" onAction="#Sides2Pressed" prefHeight="62.0" prefWidth="90.0" text="Mac &amp; Cheese - 5.99" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="306.0" mnemonicParsing="false" onAction="#Sides3Pressed" prefHeight="62.0" prefWidth="90.0" text="Tater Tots - 5.99" wrapText="true" />
+                              <Button layoutX="306.0" layoutY="306.0" mnemonicParsing="false" onAction="#Sides4Pressed" prefHeight="62.0" prefWidth="90.0" text="Side Salad - 5.99" wrapText="true" />
+                              <Text layoutX="9.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kids" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="426.0" mnemonicParsing="false" onAction="#Kids1Pressed" prefHeight="62.0" prefWidth="90.0" text="Kid's Burger - 10.99" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="426.0" mnemonicParsing="false" onAction="#Kids2Pressed" prefHeight="62.0" prefWidth="90.0" text="Kid's Grilled Cheese- 10.99" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="426.0" mnemonicParsing="false" onAction="#Kids3Pressed" prefHeight="62.0" prefWidth="90.0" text="Kid's Pizza - 10.99" wrapText="true" />
+                              <Button layoutX="306.0" layoutY="426.0" mnemonicParsing="false" onAction="#Kids4Pressed" prefHeight="62.0" prefWidth="90.0" text="Kid's Chicken Tenders - 10.99" wrapText="true" />
+                              <Text layoutX="9.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desserts" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="546.0" mnemonicParsing="false" onAction="#Desserts1Pressed" prefHeight="62.0" prefWidth="90.0" text="Banana Split - 10.99" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="546.0" mnemonicParsing="false" onAction="#Desserts2Pressed" prefHeight="62.0" prefWidth="90.0" text="Apple Pie - 10.99" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="546.0" mnemonicParsing="false" onAction="#Desserts3Pressed" prefHeight="62.0" prefWidth="90.0" text="NY Cheesecake - 10.99" wrapText="true" />
+                              <Button layoutX="306.0" layoutY="546.0" mnemonicParsing="false" onAction="#Desserts4Pressed" prefHeight="62.0" prefWidth="90.0" text="Lava Cake - 10.99" wrapText="true" />
+                              <Text layoutX="9.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beverages" textAlignment="CENTER" wrappingWidth="385.33673095703125" />
+                              <Button layoutX="6.0" layoutY="666.0" mnemonicParsing="false" onAction="#Beverages1Pressed" prefHeight="62.0" prefWidth="90.0" text="Water - 1.99" wrapText="true" />
+                              <Button layoutX="106.0" layoutY="666.0" mnemonicParsing="false" onAction="#Beverages2Pressed" prefHeight="62.0" prefWidth="90.0" text="Fountain Drink - 3.99" wrapText="true" />
+                              <Button layoutX="206.0" layoutY="662.0" mnemonicParsing="false" onAction="#Beverages3_1Pressed" prefHeight="34.0" prefWidth="90.0" text="Iced Tea - 3.99" wrapText="true">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font></Button>
+                              <Button layoutX="206.0" layoutY="698.0" mnemonicParsing="false" onAction="#Beverages3_2Pressed" prefHeight="34.0" prefWidth="90.0" text="Sweet Tea - 3.99" wrapText="true">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="306.0" layoutY="666.0" mnemonicParsing="false" onAction="#Beverages4Pressed" prefHeight="62.0" prefWidth="90.0" text="Lemonade - 3.99" wrapText="true" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </GridPane>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cart" textAlignment="CENTER" wrappingWidth="159.37349462509155" />
+                  <ScrollPane hbarPolicy="NEVER" prefHeight="399.0" prefWidth="160.0">
+                    <content>
+                      <AnchorPane fx:id="CartAnchor" minHeight="0.0" minWidth="0.0" prefHeight="1.0" prefWidth="150.0">
+                           <children>
+                              <Text fx:id="CartText" layoutX="2.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="149.5999755859375" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#ClearCartPressed" text="Clear Cart" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total:" />
+                        <TextArea fx:id="TotalText" editable="false" prefHeight="2.0" prefWidth="58.0" text="00.00" />
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" onAction="#checkoutBtn" prefHeight="30.0" prefWidth="68.0" text="Checkout" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,16 @@
+   FXMLLoader AmericanMenu = new FXMLLoader(HelloApplication.class.getResource("American Menu.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(AmericanMenu.load(), 450, 450));
+            stage.show();
+
+            FXMLLoader ChineseMenu = new FXMLLoader(HelloApplication.class.getResource("Chinese Menu.fxml"));
+            stage.setScene(new Scene(ChineseMenu.load(), 450, 450));
+            stage.show();
+
+            FXMLLoader ItalianMenu = new FXMLLoader(HelloApplication.class.getResource("Italian Menu.fxml"));
+            stage.setScene(new Scene(ItalianMenu.load(), 450, 450));
+            stage.show();
+
+            FXMLLoader MexicanMenu = new FXMLLoader(HelloApplication.class.getResource("Mexican Menu.fxml"));
+            stage.setScene(new Scene(MexicanMenu.load(), 450, 450));
+            stage.show();

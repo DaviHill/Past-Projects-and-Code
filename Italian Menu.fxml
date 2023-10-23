@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker.ItalianMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="124.0" layoutY="42.0" text="Italian Menu">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="95.0" text="Appetizers">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="346.0" layoutY="95.0" text="Entrees">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="325.0" text="Sides">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="325.0" text="Drinks">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="484.0" text="Desserts">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="132.0" text="Mozarella Sticks" />
+      <Label layoutX="78.0" layoutY="163.0" text="Bruschetta" />
+      <Label layoutX="78.0" layoutY="193.0" text="Zucchini Garlic Bites" />
+      <Label layoutX="78.0" layoutY="222.0" text="Margherita Flatbread" />
+      <Label layoutX="347.0" layoutY="132.0" text="Spaghetti and Meatballs" />
+      <Label layoutX="347.0" layoutY="163.0" text="Fettuccine Alfredo" />
+      <Label layoutX="347.0" layoutY="193.0" text="Lasagna" />
+      <Label layoutX="347.0" layoutY="222.0" text="Pizza" />
+      <Label layoutX="88.0" layoutY="369.0" text="Risotto" />
+      <Label layoutX="88.0" layoutY="400.0" text="Caprese Salad" />
+      <Label layoutX="88.0" layoutY="430.0" text="Mixed Vegetables" />
+      <Label layoutX="88.0" layoutY="458.0" text="Seasoned Potatoes" />
+      <Label layoutX="350.0" layoutY="369.0" text="Water" />
+      <Label layoutX="350.0" layoutY="400.0" text="Italian Soda" />
+      <Label layoutX="350.0" layoutY="430.0" text="Raspberry Lemonade" />
+      <Label layoutX="350.0" layoutY="458.0" text="Prosecco" />
+      <Label layoutX="217.0" layoutY="519.0" text="Gelato" />
+      <Label layoutX="217.0" layoutY="550.0" text="Peach Tart" />
+      <Label layoutX="217.0" layoutY="580.0" text="Tiramisu" />
+      <Label layoutX="217.0" layoutY="608.0" text="Lemon Ricotta Cake" />
+      <Button fx:id="nextButton" layoutX="406.0" layoutY="604.0" mnemonicParsing="false" onAction="#nextButton" text="Next" />
+      <Button fx:id="backButton" layoutX="52.0" layoutY="604.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+   </children>
+</Pane>
